@@ -18,7 +18,7 @@
                 <tr>
                     <td><Button onclick=clean()>C</Button></td>
                     <td><Button onclick="back()"><</Button></td>
-                    <td><Button onclick="dividir">/</Button></td>            
+                    <td><Button onclick="insert('/')">/</Button></td>            
                     <td><Button onclick="insert('*')">X</Button></td>     
                 </tr>
                 <tr>
@@ -38,7 +38,7 @@
                     <td><button onclick="insert('1')">1</button></td>      
                     <td><button onclick="insert('2')">2</button></td>      
                     <td><button onclick="insert('3')">3</button></td>  
-                    <td rowspan="2"><button id="igual">=</button></td>          
+                    <td rowspan="2" onclick="calcular()"><button id="igual">=</button></td>          
                   </tr>
                   <tr>
                     <td colspan="2" onclick="insert('0')"><button id="zero">0</button></td>          

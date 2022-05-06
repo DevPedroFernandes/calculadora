@@ -28,7 +28,9 @@ button{
 }
 #igual{
     height: 140px;
-}
+    background-color: #f1a500;}
+
+
 #zero{
     width: 140px;
 }
@@ -40,6 +42,8 @@ button{
     color: #000;
     text-align: right;
     padding: 8px;
+    border-radius: 8px;
+    border: #78938A solid 3px;
 }
 }
 button:hover{
@@ -47,4 +51,7 @@ button:hover{
     color: #000;
 
 
+}
+#igual:hover{
+    background-color: #240b18;
 }
